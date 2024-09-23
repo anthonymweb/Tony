@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #24b3d1;
+}
+
+.logo span {
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    color: #8a4af3;
+    position:static;
+}
+
+nav ul li a.active::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #8a4af3;
+    position: static;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.download-cv a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: left;
+    padding: 100px 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #24b3d1;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #777;
+    margin: 20px 0;
+    line-height: 1.6;
+}

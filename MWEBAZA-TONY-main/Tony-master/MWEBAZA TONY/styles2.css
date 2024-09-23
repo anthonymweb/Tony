@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #24b3d1;
+}
+
+.logo span {
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    color: #8a4af3;
+    position: static;
+}
+
+nav ul li a.active::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #8a4af3;
+    position: static;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+/* Education Section Styles */
+.education-section {
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #24b3d1;
+}
+
+.education-section p {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px 0;
+    text-align: left;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px 15px;
+}
+
+th {
+    background-color: #24b3d1;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e9e9e9;
+}

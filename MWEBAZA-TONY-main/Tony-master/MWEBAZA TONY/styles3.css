@@ -1,0 +1,78 @@
+body {
+    background-color: #daeff1; /* Dark background */
+    color: #ffffff; /* Light text color */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #1e1e1e; /* Darker card background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #2a2a2a; /* Input background */
+    color: #ffffff;
+    align-items: center;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #6200ea; /* Focus border color */
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #6200ea; /* Button color */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #3700b3; /* Button hover color */
+}
+.back-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button-container button {
+    padding: 10px 20px;
+    background-color: #6200ea; /* Button color */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back-button-container button:hover {
+    background-color: #3700b3; /* Button hover color */
+}
+
